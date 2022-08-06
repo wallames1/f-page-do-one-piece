@@ -100,14 +100,21 @@ header{
     margin-top: 0;
     margin-bottom: -10px;
 }
-div.imagem{
+.imagem{
     position: relative;
     margin-left: 515px;
+    display: inline;
+    font-size: 50px;
+    
     
 
 }
 
-#titulo{
-    text-align: left;
+h2#titulo{
+    text-align: center;
+    display: inline-block;
+    
+    
     
 }
+
