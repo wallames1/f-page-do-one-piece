@@ -17,6 +17,7 @@ nav{
     font-family: 'xbones', 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
     color: black;
     font-style: normal;
+    position: relative;
     
 }
 
@@ -99,4 +100,14 @@ header{
     margin-top: 0;
     margin-bottom: -10px;
 }
+div.imagem{
+    position: relative;
+    margin-left: 515px;
+    
 
+}
+
+#titulo{
+    text-align: left;
+    
+}
