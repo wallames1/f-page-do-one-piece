@@ -5,11 +5,27 @@
     font-weight: normal;
     font-style: normal;
 }
+@media screen and (max-width: 600px) {
+    nav {
+        float: none;
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 600px) {
+    body {
+        float: none;
+        width: 100%;
+    }
+}
 body {
     
     background-image: url(https://upload.wikimedia.org/wikipedia/commons/0/0d/Great_Wave_off_Kanagawa2.jpg);
     background-attachment: fixed;
     background-size: 100% 100%;
+    background-position: center center;
+    margin: auto;
+    background-repeat: no-repeat;
 
 }
 
@@ -17,7 +33,9 @@ nav{
     font-family: 'xbones', 'Times New Roman', Times, serif,Arial, Helvetica, sans-serif;
     color: black;
     font-style: normal;
-    position: relative;
+    margin: 10px 0px 20px 0px;
+    margin-inline: auto;
+    margin-left: 17%;
     
 }
 
@@ -30,15 +48,15 @@ nav>a{
     padding: 8px 55px 7px 55px;
     background-image: linear-gradient(to top, #1333d3e7, #47b7fde8);
     box-shadow: 5px 5px 9px rgba(16, 16, 16, 0.824);
-    margin: 10px black;
-    position: relative;
-    left: 210px;
-    top: -30px;
+    margin: auto;
     border: 1px solid #762E03;
     text-decoration: none;
     font-weight: bold;
     transition: 0.5s;
-    display: inline-flex;
+    display: inline-block;
+    
+    
+    
 
     
 }
@@ -64,6 +82,8 @@ h1{
     margin: auto 100px;
     text-align: center;
     text-shadow: 1px 1px 3px            #0535467a;
+    
+    
 
 }
 p{
@@ -71,6 +91,7 @@ p{
     font-family: Arial;
     text-shadow: 1px 1px 1px rgba(19, 18, 18, 0.142);
     font-style: normal;
+    line-height: 2em;
 
 }
 main{
@@ -79,12 +100,13 @@ main{
     background-size: 100% 100%; 
     background-color: rgba(255, 255, 255, 0.833);
     box-shadow: 5px 5px 15px #2337809b;
-    margin:auto;
+    margin: auto;
     border-radius: 10px;
     padding: 15px;
     width: 800px;
     border: 0.4px solid black;
     margin-top: 0;
+    
 
 
 }
@@ -118,4 +140,3 @@ h2#titulo{
     
     
 }
-
