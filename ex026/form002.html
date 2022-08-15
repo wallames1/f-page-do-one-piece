@@ -16,22 +16,26 @@
 <body>
     <h1>FORMULÁRIO</h1>
     <form action="cadastro.php" method="post">
-    <p>
-        <label for="ilogin">Login</label>
-        <input type="text" name="login" id="ilogin" required minlength="5" maxlength="20" size="20" placeholder="usuario">
-    </p>
-    <P>
-        <label for="isenha">Senha</label>
-        <input type="password" name="Senha" id="isenha" required minlength="5" maxlength="20" size="90" placeholder="senha">
-    </P>
-    <p>
-        <label for="inota">Nota</label>
-        <input type="number" name="nota" id="inota" placeholder="0 a 10" min="0" max="10" step="0.1">
-    </p>
-    <p>
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Limpar">
-    </p>
+
+    <fieldset>
+        <legend>Dados cadastrais</legend>
+        <p>
+            <label for="ilogin">Login</label>
+            <input type="text" name="login" id="ilogin" required minlength="5" maxlength="20" size="20" placeholder="usuario">
+        </p>
+        <P>
+            <label for="isenha">Senha</label>
+            <input type="password" name="Senha" id="isenha" required minlength="5" maxlength="20" size="90" placeholder="senha">
+        </P>
+        <p>
+            <label for="inota">Nota</label>
+            <input type="number" name="nota" id="inota" placeholder="0 a 10" min="0" max="10" step="0.1">
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
+    </fieldset>
 </form>
     
 </body>
