@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+p{
+    width: 500px;
+    margin: 10px;
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+}
+form{
+    display: none;
+}
