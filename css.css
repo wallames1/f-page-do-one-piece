@@ -38,6 +38,20 @@ nav{
     margin-left: 17%;
     
 }
+i#botao{
+    margin: auto;
+    background-color: #1333d3cf;
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+i#botao:hover{
+    cursor: pointer;
+    color: rgba(0, 0, 0, 0.9);
+    background-color: #47b7fdb3;
+    padding: 12px;
+}
 
 nav>a{
     font-style: normal;
@@ -105,7 +119,7 @@ main{
     padding: 15px;
     width: 800px;
     border: 0.4px solid black;
-    margin-top: 0;
+    margin-top: 12px;
     
 
 

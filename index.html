@@ -8,14 +8,19 @@
     
     <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
     <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+   
     
     
 </head>
 <body>
     <header>
         <img src="onepiece200px.png" alt="logo do onde piece">
+        <i id="botao" class="material-symbols-outlined" onclick="clickMenu()">
+            menu
+            </i>
         
-        <nav>
+        <nav id="menu">
                 <a href="#">East Blue</a>
                 <a href="#">North Blue</a>
                 <a href="#">West Blue</a>
@@ -47,6 +52,17 @@
     </main>
     
 <a href="pagina2/pagina2.html" rel="next" target="_self">pagina 2</a>
+
+<script>
+    function clickMenu(){
+        if (menu.style.display == "inline-block"){
+            menu.style.display = "none"
+
+        }else {
+            menu.style.display = "inline-block"}
+    }
+
+</script>
 
 
 </body>
